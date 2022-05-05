@@ -7,5 +7,32 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 .header-menu {
-  background-color: green;
+  padding: 20px 10px;
+}
+.header-menu,
+.primary-menu,
+.menu > ul,
+.cta-menu > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.menu > ul,
+.cta-menu > ul {
+}
+.logo > p {
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+  font-size: 28px;
+}
+.hero-banner {
+  background-color: grey;
+}
+.hero-content {
+  background-color: bisque;
+}
+.hero-img {
+  background-color: chartreuse;
 }
