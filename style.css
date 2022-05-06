@@ -6,33 +6,84 @@
 body {
   font-family: "Epilogue", sans-serif;
 }
+
+/* Menu Section */
 .header-menu {
-  padding: 20px 10px;
+  padding: 20px 70px;
 }
 .header-menu,
 .primary-menu,
 .menu > ul,
 .cta-menu > ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   gap: 20px;
+  color: hsl(0, 0%, 41%);
 }
-.menu > ul,
-.cta-menu > ul {
+.menu > ul li:hover,
+.cta-menu > ul li:hover {
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .logo > p {
   color: hsl(0, 0%, 8%);
   font-weight: 700;
   font-size: 28px;
 }
+.menu {
+  margin-left: 80px;
+}
+
+/* Button Section */
+.btn {
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.btn-register {
+  border: 1px solid hsl(0, 0%, 8%);
+}
+.btn-learn-more {
+  border: 1px solid hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+}
+.btn-learn-more:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  transition: all 0.3s;
+}
+
+/* Hero Section */
 .hero-banner {
-  background-color: grey;
+  padding: 40px 75px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .hero-content {
-  background-color: bisque;
+  width: 800px;
+  padding: 10px 165px;
 }
-.hero-img {
-  background-color: chartreuse;
+.hero-content > h2 {
+  font-size: 94px;
+  margin-top: 50px;
+}
+.hero-content > p {
+  margin: 30px 0px 30px 0px;
+  color: hsl(0, 0%, 41%);
+  line-height: 30px;
+  width: 550px;
+}
+.hero-img > img {
+  width: 400px;
+}
+.client-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0px;
 }
