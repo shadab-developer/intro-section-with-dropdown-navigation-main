@@ -43,6 +43,10 @@ body {
   padding: 12px 20px;
   cursor: pointer;
 }
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
 .btn-register {
   border: 1px solid hsl(0, 0%, 8%);
 }
@@ -86,4 +90,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 40px 0px;
+}
+.client-logo img:hover {
+  transform: scale(1.6);
+  transition: all 0.3s;
 }
